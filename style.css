@@ -1,0 +1,156 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container{
+   
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background-color: #f8ebe9;
+}
+.card{
+    display: flex;
+    margin: 40px auto;
+    width: 850px;
+    height: 550px;
+    background-color: white;
+    box-shadow: 0 10px 20px -5px rgb(43, 41, 41);
+}
+.image{
+    background-image: url(background.jpg);
+    background-repeat: no-repeat;
+    background-size: 300px 100%;
+    width: 300px;
+    height: 100%;
+}
+.inside-card{
+    width: 550px;
+    height: 100%;
+}
+.menu{
+width: 100%;
+height: 50px;
+}
+.menu ul{
+    padding-right: 10px;
+    display: flex;
+    justify-content: flex-end;
+}
+.menu ul li{
+    color: rgb(211, 203, 203);
+    font-size: 12px;
+    font-weight: bold;
+    padding-left: 10px;
+    margin-top: 10px;
+    list-style: none;
+    float: right;
+    padding: 15px;
+}
+span{
+    color: black;
+}
+
+.heading{
+font-family: 'Playfair Display';
+padding-left: 65px;
+width: 100%;
+height: 250px;
+display: flex;
+flex-direction: column;
+justify-content: flex-end;
+}
+.heading h1{
+    margin-bottom: 20px;
+    font-size: 60px;
+    font-weight: lighter;
+}
+.heading h4{
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+}
+.data{
+padding-top: 40px;
+padding-left: 60px;
+display: flex;
+width: 100%;
+height: 230px;
+margin-bottom: 20px;
+}
+.video{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+background-image: url(preview.jpg);
+background-size: 150px 60%;
+background-repeat: no-repeat;
+width: 150px;
+height: 150px;
+}
+.content{
+padding: 5px;
+width: 250px;
+height: 150px;
+}
+.content p{
+    font-weight: 550;
+    font-size: 13px;
+    line-height: 25px;
+    font-family: 'Roboto', sans-serif;
+    padding-left: 40px;
+    color: rgb(91, 89, 89);
+}
+.rightarrow{
+    background-image: url(arrow-forward.svg);
+    background-repeat: no-repeat;
+    background-size: 25px 100%;
+    width: 50px;
+    height: 100%;
+}
+.playerbutton{
+    margin: 40px auto;
+    border-radius: 60px;
+    width: 40px;
+    height: 40px;
+    background-color: rgb(255, 255, 255);
+    opacity: 0.8;
+}
+.playerbutton img{
+    margin-left: 8px;
+    margin-top: 8px;
+    width: 60%;
+    height: 60%;
+}
+
+.veiwall{
+    display: flex;
+    padding-bottom: 40px;
+}
+.vieiwalldata{
+    font-weight: bold;
+    font-size: 12px;
+    width: 150px;
+    height: 100%;
+}
+.backarrowdiv{
+    margin-top: 20px;
+    margin-left: 20px;
+    display: flex;
+    width: 100px;
+    height: 40px;
+}
+.backdiv{
+    padding-top: 7px;
+    font-weight: bold;
+    font-size: 12px;
+    width: 60px;
+    height: 100%;
+}
+.backarrow{
+    background-image: url(arrow-back.svg);
+    background-repeat: no-repeat;
+    background-size: 20px 70%;
+    width: 30px;
+    height: 100%;
+}
